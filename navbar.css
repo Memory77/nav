@@ -28,7 +28,7 @@ nav {
   }
 
   a img{
-    width: 200px;
+    width: 250px;
   }
 
   
@@ -62,7 +62,19 @@ nav {
     color: #000000;
     font-weight: bold;
   }
+
+  .nav_link_reseaux img{
+    width: 30px;
+  }
+  li{
+    list-style: none;
+  }
   
+  .img-nav{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+  }
   @media (max-width: 768px) {
     .burger-menu {
       display: flex;
